@@ -44,10 +44,10 @@ def validate_user():
     verify = request.form["verify"]
     email = request.form["email"]
 
-    user_error = " "
-    passwrd_error = " "
-    verify_error = " "
-    email_error = " "
+    user_error = ""
+    passwrd_error = ""
+    verify_error = ""
+    email_error = ""
 
     user_len = len(user)
     password_len = len(passwrd)
